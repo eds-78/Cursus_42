@@ -6,12 +6,11 @@
 /*   By: ede-smet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 00:30:45 by ede-smet          #+#    #+#             */
-/*   Updated: 2022/04/05 00:31:09 by ede-smet         ###   ########.fr       */
+/*   Updated: 2022/04/05 00:44:38 by ede-smet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	
-	return 0;
+	return (0);
 }
