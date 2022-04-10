@@ -6,11 +6,13 @@
 /*   By: ede-smet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 00:33:56 by ede-smet          #+#    #+#             */
-/*   Updated: 2022/04/06 00:50:28 by ede-smet         ###   ########.fr       */
+/*   Updated: 2022/04/10 03:45:19 by ede-smet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
+int	ft_atoi(char *str);
 
 #endif

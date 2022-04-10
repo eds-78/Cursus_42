@@ -6,7 +6,7 @@
 #    By: ede-smet <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/04/05 00:35:03 by ede-smet          #+#    #+#              #
-#    Updated: 2022/04/06 00:49:45 by ede-smet         ###   ########.fr        #
+#    Updated: 2022/04/10 03:50:32 by ede-smet         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,7 @@ all: $(NAME)
 FLAG: -Werror -Wall -Wextra -g
 
 $(NAME):
-	@gcc -o $(FLAG) $(NAME) $(SRC)
+	@gcc -o $(FLAG) $(NAME) ../main.c $(SRC)
 
 clean:
 	@rm -f *.o *.out *.gch
