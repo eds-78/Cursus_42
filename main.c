@@ -6,7 +6,7 @@
 /*   By: ede-smet <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 00:30:45 by ede-smet          #+#    #+#             */
-/*   Updated: 2022/04/11 10:52:23 by ede-smet         ###   ########.fr       */
+/*   Updated: 2022/04/12 18:11:54 by ede-smet         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ int	main(int argc, char **argv)
 {
 	(void)argc;
 	(void)argv;
-	char b='t';
-	printf("%c\n", ft_toupper((int)b));
+	printf("%s\n", ft_strnstr("je suis la", "suis", 10));
 	return (0);
 }
