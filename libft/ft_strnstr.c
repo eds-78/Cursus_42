@@ -21,16 +21,18 @@ char	*ft_strnstr(const char	*big, const char *little, size_t len)
 	i = 0;
 	if (!little)
 		return ((char *)big);
-	while (little[i] && i < len)
+	while (little[i])
 	{
 		if (!big[j])
 			return (0);
-		if (little[i] == big[j])
-		{
-			i++;
-			j++;
-		}
+		while (little[i] == big[j] && j < len)
+			{
+				i++;
+				j++;
+			}
 		j++;
 	}
-	return ((char *)big + j - i);
+	if (i == ft_strlen((char *)little))
+		return ((char *)big + j - i - 1);
+	return (0);
 }
